@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contatti | INVICTO AGENCY</title>
+    <meta
+      name="description"
+      content="Contatta INVICTO AGENCY per un progetto video premium, brand film, reels e contenuti social."
+    />
+    <meta name="theme-color" content="#071312" />
+    <link rel="icon" type="image/png" href="INVICTO.png" />
+    <link rel="apple-touch-icon" href="INVICTO.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow glow-one"></div>
+    <div class="page-glow glow-two"></div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <a href="index.html" class="brand" aria-label="Torna alla homepage INVICTO AGENCY">
+          <img src="INVICTO.png" alt="INVICTO AGENCY logo" class="brand-logo" />
+        </a>
+
+        <nav class="main-nav" aria-label="Navigazione principale">
+          <a href="index.html#servizi">Servizi</a>
+          <a href="index.html#approccio">Approccio</a>
+          <a href="index.html#processo">Processo</a>
+          <a href="contatti.html">Contatti</a>
+        </nav>
+
+        <a href="contatti.html" class="button button-small">Contattaci</a>
+      </div>
+    </header>
+
+    <main class="contact-page-main">
+      <section class="contact-hero section">
+        <div class="container contact-hero-grid">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">CONTATTI</p>
+            <h1>Parliamo del tuo prossimo video.</h1>
+            <p class="lead">
+              Scrivici per un progetto, un consulto o una semplice domanda. Ti risponderemo con una
+              proposta chiara e senza fronzoli.
+            </p>
+
+            <div class="contact-badges">
+              <span>Brand film</span>
+              <span>Reels</span>
+              <span>Social content</span>
+            </div>
+          </div>
+
+          <div class="contact-card reveal">
+            <h3>Scrivici</h3>
+            <form
+              class="contact-form"
+              action="https://formsubmit.co/invictoagency25@gmail.com"
+              method="POST"
+            >
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_subject" value="Nuovo messaggio da INVICTO AGENCY" />
+
+              <div class="field-row">
+                <label>
+                  Nome
+                  <input type="text" name="nome" placeholder="Il tuo nome" required />
+                </label>
+              </div>
+
+              <div class="field-row">
+                <label>
+                  Email
+                  <input type="email" name="email" placeholder="tuo@email.com" required />
+                </label>
+              </div>
+
+              <div class="field-row">
+                <label>
+                  Azienda / brand
+                  <input type="text" name="azienda" placeholder="Nome del brand" />
+                </label>
+              </div>
+
+              <div class="field-row">
+                <label>
+                  Messaggio
+                  <textarea name="messaggio" rows="5" placeholder="Parlami del tuo progetto..." required></textarea>
+                </label>
+              </div>
+
+              <button type="submit" class="button button-full">Invia messaggio</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-info">
+        <div class="container info-grid">
+          <div class="info-card reveal">
+            <span class="info-kicker">Email</span>
+            <h3>invictoagency25@gmail.com</h3>
+            <p>Risposta in genere entro 24-48 ore.</p>
+          </div>
+
+          <div class="info-card reveal">
+            <span class="info-kicker">Social</span>
+            <h3>@invictoagency</h3>
+            <p>Instagram, TikTok, YouTube e briefing creativi.</p>
+          </div>
+
+          <div class="info-card reveal">
+            <span class="info-kicker">Disponibilità</span>
+            <h3>Su richiesta</h3>
+            <p>Progetti brand, creator e aziende in crescita.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <img src="INVICTO.png" alt="INVICTO AGENCY logo" class="brand-logo" />
+          </div>
+          <p>Agency di video editing e content strategy per brand, creator e aziende che vogliono comunicare meglio.</p>
+        </div>
+
+        <div>
+          <h4>Contatti</h4>
+          <ul>
+            <li>invictoagency25@gmail.com</li>
+            <li>Instagram / TikTok / YouTube</li>
+            <li>Disponibilità su richiesta</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Focus</h4>
+          <ul>
+            <li>Brand films</li>
+            <li>Reels</li>
+            <li>Social content</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container copyright">
+        <span>© <span id="year"></span> INVICTO AGENCY</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
